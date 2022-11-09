@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Service">
+
+    <Button
+        android:id="@+id/aidl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/back"
+        android:layout_marginBottom="21dp"
+        android:layout_weight="1"
+        android:text="Aidl" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="302dp"
+        android:layout_weight="1"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/bound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/aidl"
+        android:layout_marginBottom="25dp"
+        android:text="Bound Service" />
+
+    <Button
+        android:id="@+id/forground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bound"
+        android:layout_marginBottom="19dp"
+        android:text="Forground Service" />
+</RelativeLayout>
